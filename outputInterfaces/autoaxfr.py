@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python
 # File: autoaxfr.py
 # Author: Mike Roest <msroest@users.sourceforge.net>
 # Purpose:
@@ -12,7 +12,7 @@ import string
 import getopt
 import sys
 import time
-
+import os
 #Config Values
 username = ''
 password = ''

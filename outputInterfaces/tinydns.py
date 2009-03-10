@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/python
 # File: tinydns.py
 # Author: Mike Roest <msroest@users.sourceforge.net>
 # Purpose: 
@@ -138,7 +138,9 @@ def main():
 	        query = "UPDATE RECORDS SET VALUE='"+newSOA+","+soaParts[1]+","+soaParts[2]+","+soaParts[3]+","+soaParts[4]+"' WHERE RECORDID="+recordid.__str__()
 	        c=db.cursor()
 	        c.execute(query)
-	        c.close()
+	        db.commit()
+		c.close()
+		
 
 	    #Handle PTR Records
 	    if type == 'PTR':
@@ -241,6 +243,7 @@ def main():
 	  c=db.cursor()
 	  c.execute(query)
 	  c.close()
+	  db.commit()
 	
 	return
 
@@ -275,7 +278,6 @@ def getConfig(username,password,dbName,dbHost):
 	result = c.fetchall()
 	for name,value in result:
 	  configHash[name] = value
-	  configHash[name] = string.replace(configHash[name],"\\\"","\"")
 	return configHash
 	  
 if __name__ == "__main__":
