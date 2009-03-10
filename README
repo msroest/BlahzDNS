@@ -1,0 +1,13 @@
+Requirements:
+-------------------------------------------------------------------
+-Mysql 3.23.X or 4.x (preferably with InnoDB support)
+-PHP with MySQL support (preferably with mcrypt support for better user password encryption)
+-Webserver to use the PHP with
+-Python 2.2 with MySQL support (http://sourceforge.net/projects/mysql-python) or
+	the ability to write your own output filter.
+
+
+INSTALL:
+--------------------------------------------------------------------
+See INSTALL file.
+

@@ -1,0 +1,54 @@
+If possible create a new Database and user for blahz DNS.
+
+Create DB:
+mysql -u root -p
+CREATE DATABASE BLAHZDNS;
+
+Create User and grant them full priv to new DB;
+GRANT ALL ON BLAHZDNS.* to username@localhost IDENTIFIED BY 'password';
+FLUSH PRIVILEDGES;
+
+Replaceing username and password with your desired DB username and password.  Also if the DB host and Web server are on different machines change localhost with the hostname/IP of the webserver.
+
+2) Load the base Blahz DNS Schema into the database.
+From the untarred blahzdns directory.
+mysql -u username -p BLAHZDNS < sql/schema.sql
+
+This will load the base schema into the database.
+
+3) Edit vars.php and Set the following 4 variables to their correct values
+
+$dbhost
+$dbuser
+$dbpass
+$dbname
+
+4) Load up The following URL in a browser
+
+http://servername/path/to/blahzdns/install.php
+
+5) Follow the install steps.
+
+5a) If you were using a previous version of BlahzDNS checkout the upgrade.py in
+the scripts directory to automagically transfer primary & secondary zones, user accounts
+and user zones associations from the previous version to the new version.
+
+5b) If you changed your salt or crypt method from the previous version you will need to
+reset all user account passwords.
+
+6) Load up http://servername/path/to/blahzdns
+
+7) Login with the username and password you created during the install.php steps.
+
+8) Once you're sure everything is working delete the install.php file (or set it unreadable as it can be used to hose your blahzdns install)
+
+9) Enter the Edit Configuration Screen to set the remainder of the system options.
+
+10) Check the outputInterfaces directory for the script to output data into the correct
+format for your DNS server package. If you donot wish to use the provided
+output interfaces please feel free to write your own.  All I ask is that you submit it to
+be included in the package. Once you have chosen a output Interface to use you
+can either run it manually when you make a change.  Or you can set it up to run
+in cron on an interval.
+
+

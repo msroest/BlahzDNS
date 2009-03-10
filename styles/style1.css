@@ -1,0 +1,159 @@
+A.normal:visited {
+	COLOR: #ffcf3f; TEXT-DECORATION: underline
+}
+A.normal:link {
+	COLOR: #ffcf3f; TEXT-DECORATION: underline
+}
+A.normal:hover {
+	COLOR: white; TEXT-DECORATION: underline
+}
+A.feature:visited {
+	FONT-SIZE: 9pt; COLOR: white; TEXT-DECORATION: none
+}
+A.feature:link {
+	FONT-SIZE: 9pt; COLOR: white; TEXT-DECORATION: none
+}
+A.feature:hover {
+	FONT-SIZE: 9pt; COLOR: #ffcf3f; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #ffcf3f; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #ffcf3f; TEXT-DECORATION: none
+}
+A:hover { COLOR: white; TEXT-DECORATION: underline
+}
+A.leftnav:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.leftnav:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.leftnav:hover {
+	COLOR: #ffcf3f; TEXT-DECORATION: none
+}
+A.uline:visited {
+	COLOR: #ffcf3f; TEXT-DECORATION: none
+}
+A.uline:link {
+	COLOR: #ffcf3f; TEXT-DECORATION: none
+}
+A.uline:hover {
+	COLOR: white; TEXT-DECORATION: underline
+}
+P {
+FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+P.body {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+P.small {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P.headline {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P.navhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+P.leftnav {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 18pt; COLOR: #ffcf3f; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-SIZE: 16pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+HR.bright {
+	COLOR: #b8bfbc; HEIGHT: 1px
+}
+HR.forum {
+	COLOR: #202750; HEIGHT: 1px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; SCROLLBAR-FACE-COLOR: #333366; FONT-SIZE: 10pt; Z-INDEX: 1; PADDING-BOTTOM: 0px; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #333366; SCROLLBAR-SHADOW-COLOR: #bdbebd; SCROLLBAR-3DLIGHT-COLOR: #bdbebd; SCROLLBAR-ARROW-COLOR: #ffcf3f; PADDING-TOP: 0px; SCROLLBAR-TRACK-COLOR: #111144; FONT-FAMILY: Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #102810
+; background-color: 000431; COLOR: #ffcf3f}
+INPUT {
+	BORDER-RIGHT: #b8bfbc 1px solid; 
+	BORDER-TOP: #b8bfbc 1px solid;
+	FONT-SIZE: 14px; 
+	BACKGROUND: #FFFFFF; 
+	BORDER-LEFT: #b8bfbc 1px solid; 
+	COLOR: #000431; 
+	BORDER-BOTTOM: #b8bfbc 1px solid; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	font-color: #000431
+	}
+TEXTAREA {
+	BORDER-RIGHT: #b8bfbc 1px solid; 
+	BORDER-TOP: #b8bfbc 1px solid;
+	FONT-SIZE: 14px; 
+	BACKGROUND: #FFFFFF; 
+	BORDER-LEFT: #b8bfbc 1px solid; 
+	COLOR: #000431; 
+	BORDER-BOTTOM: #b8bfbc 1px solid; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	font-color: #000431
+	}
+
+SELECT {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #000000 0px solid; BACKGROUND: #000431; BORDER-LEFT: #000000 0px solid; COLOR: #EEFFFF; BORDER-BOTTOM: #000000 0px solid
+}
+SELECT.bright {
+	BORDER-RIGHT: #b8bfbc 0px solid; BORDER-TOP: #b8bfbc 0px solid; BACKGROUND: #202750; BORDER-LEFT: #b8bfbc 0px solid; COLOR: #EEFFFF; BORDER-BOTTOM: #b8bfbc 0px solid
+}
+TEXTAREA.bright {
+	BORDER-RIGHT: #b8bfbc 0px solid; BORDER-TOP: #b8bfbc 0px solid; BACKGROUND: #202750; BORDER-LEFT: #b8bfbc 0px solid; COLOR: #EEFFFF; BORDER-BOTTOM: #b8bfbc 0px solid
+}
+.button
+{
+
+COLOR: #f4c545;
+BACKGROUND-COLOR: transparent;
+FONT-FAMILY: Arial, Helvetica, Sans Serif;
+FONT-SIZE: 14px;
+FONT-WEIGHT: bold;
+TEXT-ALIGN: center
+CURSOR-TYPE: hand
+}
+BLOCKQUOTE.p {		    
+	COLOR: #c0c7f0; FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TR {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD.mike {
+	color: #ffcf3f;
+	FONT-WEIGHT: bold
+}
+TD.saying {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD.tooltip {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+DIV {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+OL {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+UL {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BR {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,20 @@
+
+Source File Layouts:
+All source files should begin with the following Comment Block.
+
+/*
+File: FILENAME
+Author: AUTHOR NAME <AUTHOR EMAIL ADDRESS>
+Homepage: http://blahzdns.sourceforge.net/
+Comments:
+	Description of the operation of the module.
+	Including any known bugs and planned feature changes.
+*/
+
+SQL Query Syntax:
+
+All queries should be completely in caps.
+Columns selected must always be specified. (NO SELECT *)
+Any Updates/Inserts should use mysql_escape_string to sanitize user input
+	before being submitted to the DB.
+

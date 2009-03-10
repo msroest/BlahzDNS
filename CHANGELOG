@@ -1,0 +1,28 @@
+***************************************************************
+*	2004/02/04
+*
+***************************************************************
+Additional Features:
+Bind output interface is complete.  Primary and Secondary Zones
+work
+
+Bugs:
+Dynamic zones don't really have support completely hashed out yet
+so the bind output filter is ignoring them for now.
+***************************************************************
+*	2004/01/09
+*
+***************************************************************
+Additional Features:
+TXT Record support for tinydns output filter
+
+BugFixes:
+Added --read-only flag to help screen of tinydns.py
+
+
+***************************************************************
+*	2003/10/24
+*				
+*	Initial Beta CVS Release
+***************************************************************
+

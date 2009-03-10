@@ -1,0 +1,688 @@
+a {
+
+font-family: trebuchet, verdana, tahoma, arial, sans-serif;
+
+font-size: 11px;
+
+color: #948e73;
+
+text-decoration : none;
+
+}
+
+
+
+a:visited {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #6d6333;
+
+text-decoration : none;
+
+}
+
+a:active {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #d4d0c8;
+
+text-decoration : none;
+
+}
+
+
+
+a:hover {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #6d6333;
+
+text-decoration : underline;
+
+}
+
+
+body {
+
+background-color: #e8e9ea;
+color: #000000;
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+top-margin : 20px;
+
+bottom-margin : 0px;
+
+left-margin : 0px;
+
+right-margin : 0px;
+
+        scrollbar-face-color:#3d505a;
+        scrollbar-arrow-color:#948e73;
+        scrollbar-track-color:#2c3941;
+        scrollbar-shadow-color:#3d505a;
+        scrollbar-highlight-color:#3d505a;
+        scrollbar-3dlight-color:#3d505a;
+        scrollbar-darkshadow-color:#3d505a;
+
+
+}
+
+
+
+TD {
+
+color: #839faa;
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.commentarea {
+color: #000000;
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+a.TD:active {
+color: #ffffff;
+font-size: 11px;
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+}
+
+
+a.TD2:visited {
+color: #202020;
+font-size: 11px;
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+}
+
+a.TD2:hover {
+color: #ffffff;
+font-size: 11px;
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+}
+.TD2 {
+
+color: #000000;
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+
+
+
+
+.storybox {
+
+color: #39515a;
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+background-color: #e8e9ea;
+
+}
+
+
+
+.commentbar4 {
+
+color: #839faa;
+
+font-size: 11px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+background-color: #EEEEEE;
+
+}
+
+
+
+H1 {
+
+color: #000000; 
+
+font-size: 12px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.story {
+color: #000000;
+font-size: 11px;
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+
+a.story {
+color: #000000;
+font-size: 11px;
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+a.story:hover {
+color: #000000;
+font-size: 11px;
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+a.story:visited {
+color: #000000;
+font-size: 11px;
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+a.story:active {
+color: #000000;
+font-size: 11px;
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+
+
+
+
+
+H2 {
+
+color: #000000; 
+
+font-size: 11px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+
+H3 {
+
+color: #000000; 
+
+font-size: 13px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+
+option {
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #948e73;
+background-color: #3d505a
+
+}
+
+
+
+textarea {
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #39515a;
+
+}
+
+
+
+select {
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 10px;
+
+color: #39515a;
+
+}
+
+
+
+input, submit {
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 10px;
+
+color: #39515a;
+
+}
+
+
+
+th {
+
+color: #39515a;
+
+font-size: 12px;
+
+font-weight: bold;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+.headertext {
+
+color: #FFFFFF;
+
+font-weight: bold;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+
+.navtext {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+
+.blocktitle {
+
+color: #FFFFFF;
+background-color: #647684;
+font-size: 11px;
+
+font-weight: bold;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+a.blocklinks:visited {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #FFFFFF;
+
+text-decoration : none;
+
+}
+
+a.blocklinks:hover {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #ADADA2;
+
+text-decoration : none;
+
+}
+
+
+
+a.blocktitle2:visited {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #FFFFFF;
+
+text-decoration : none;
+
+}
+a.blocktitle2:hover {
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+font-size: 11px;
+
+color: #1a3941;
+
+text-decoration : none;
+
+}
+
+
+
+.blocktitle2 {
+
+color: #FFFFFF;
+background-color: #647684;
+font-size: 11px;
+text-decoration: none;
+font-size: 11px;
+
+font-weight: bold;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+.blocklinks {
+
+color: #839faa;
+background-color: #2c3941;
+
+text-decoration: none;
+font-family: trebuchet, arial, tahoma, verdana, helvetica, sans-serif;
+font-size: 11px;
+padding-left:4px;
+ 
+padding-bottom:2px;
+
+padding-top:2px;
+
+
+}
+
+.blockinfo {
+
+
+font-size: 11px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+color: #839faa;
+
+padding-left:4px;
+
+padding-bottom:2px;
+
+padding-top:2px;
+
+}
+
+
+.featureblock {
+
+color: #000000; 
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+.footer {
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+.storytitle {
+
+color: #FFFFFF;
+background-color: #3d505a;
+font-size: 11px;
+
+font-weight: bold; 
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.storybyline {
+
+color: #948e73; 
+
+font-size: 11px;
+
+font-family: trebuchet, verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.warning {
+
+color: red; 
+
+font-size: 12px;
+
+font-weight: bold; 
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.warningsmall {
+
+color: red; 
+
+font-size: 11px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+.commentbar1 {
+
+color: #000000; 
+
+background-color: #EEEEEE; 
+
+font-size: 11px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+.commentbar2 {
+
+background-color: #C0C0C0;
+
+font-size: 12px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.commentbar3 {
+
+color: #000000; 
+
+background-color: #C0C0C0; 
+
+font-size: 11px;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+.commenttitle {
+
+font-size: 12px;
+
+font-weight: bold;
+
+background-color: #C0C0C0;
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+}
+
+
+.cal_day {
+
+font-size: 13px;
+
+font-weight: bold;
+
+color: #000000;	
+
+}
+
+
+
+.cal_body {
+
+background-color: #C0C0C0; 
+
+font-family: verdana, tahoma, helvetica, arial, sans-serif;
+
+font-weight: bold;
+
+color: #000000;	
+
+border-style: solid solid solid solid; 
+
+border-color: #000000 #000000 #000000 #000000;
+
+}
+
+
+
+.cal_nullday {
+
+background-color: #EEEEEE;
+
+color: #000000;
+
+}
+
+.cal_oldday {
+
+background-color: #C0C0C0;
+
+color: #000000;
+
+}
+
+.cal_month {
+
+background-color: #C0C0C0;
+
+color: #000000;
+
+}
+
+
+.cal_today {
+
+background-color: #628649;
+
+}
+
+.weekview_caltitle {
+
+background-color: #C0C0C0;
+
+font-weight: bold;
+
+font-size: 13px;
+
+color: #000000;	
+
+}
+
+.weekview_curday {
+
+background-color: #66A6CE;
+
+color: #000000;	
+
+}
+
+.weekview_offday {
+
+background-color: #C0C0C0;
+
+color: #000000;	
+
+}
+
+.weekview_dayformat {
+
+font-size: 11px;
+
+background-color: #C0C0C0;
+
+color: #000000;
+
+}
+
+.weekview_addevent {
+
+font-size: 11px;
+
+background-color: #C0C0C0;
+
+color: #000000;
+
+}
+
+.weekview_daterange {
+
+font-size: 13px;
+
+font-weight: bold;
+
+background-color: #C0C0C0;
+
+color: #000000;
+
+}
+
+.dayview_times {
+
+font-size: 10px;
+
+background-color: #C0C0C0;
+
+color: #000000;
+
+}
+
+.dayview_datecol {
+
+font-weight: bold;
+
+background-color: #C0C0C0;
+
+font-size: 13px;
+
+color: #000000;	
+
+}
+
+.dayview_quickaddtitle {
+
+font-weight: bold;
+
+background-color: #C0C0C0;
+
+font-size: 13px;
+
+color: #000000;	
+
+}

@@ -1,0 +1,7 @@
+Terse Updating Instructions:
+------------------------------------------------------
+CVS-20031224 -> CVS20040228
+Overwrite all php files except vars.php
+Run the following Schema Upgrades:
+sql/CVS20031224-CVS20040228.sql
+
