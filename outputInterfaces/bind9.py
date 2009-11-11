@@ -216,7 +216,13 @@ def main():
 	      #output.write("+"+record+":"+value+":"+ttl.__str__()+"\n")
 	      outputLine = record+"\t\t"+ttl+"\tIN A\t"+value+"\n"
 	    #Handle A6 Records
-	    if type == 'A6':
+      if type == 'AAAA':
+        if(ttl == None):
+          ttl = globalttl
+        else:
+          ttl = ttl.__str__()
+      outputLine = record + "\t\t"+ttl+"\t IN AAAA\t"+value+"\n"
+	    if type == 'A6' :
 	      if(ttl == None):
 	        ttl = globalttl
 	      else:
