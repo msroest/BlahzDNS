@@ -17,7 +17,7 @@ if($config!=NULL) { }
 else {
 	$config=get_config_info($db);
 }
-$version = "1.00";
+$version = "1.0.2";
 $title = $title." [Blahz DNS - ". $version."]";
 ?>
 
